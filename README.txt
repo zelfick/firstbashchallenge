@@ -8,8 +8,8 @@ As an example the dockerfile should have this sections (suggested is nginx which
 # - you should use any official image of docker image to build nginx the idea is that you use this parts in your docker file:
 
 
-FROM node:
-# if you want can use optional environment variables
+FROM debian:stretch-slim
+# if you want, you can use optional environment variables
 
 ENV NGINX_VERSION 1.13.6-1~stretch
 ENV NJS_VERSION   1.13.6.0.1.14-1~stretch
