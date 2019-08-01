@@ -37,7 +37,7 @@ WORKDIR /usr/share/nginx/html
 COPY index.html index.html
 #use a copy sentence to put the code from your machine path index.html inside the container index.html
 
-# rember after the build to run your container so we can see the results
+# remember after the build to run your container so we can see the results
 
 
 
